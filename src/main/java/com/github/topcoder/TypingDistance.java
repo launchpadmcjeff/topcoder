@@ -3,7 +3,9 @@ package com.github.topcoder;
 import java.util.HashMap;
 import java.util.Map;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=12297">TypingDistance</a>
+ */
 public class TypingDistance {
 
 	public int minDistance(String keyboard, String word) {

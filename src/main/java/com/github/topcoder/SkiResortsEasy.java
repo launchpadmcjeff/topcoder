@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=12469">SkiResortsEasy</a>
+ */
 public class SkiResortsEasy {
 
 	public int minCost(int[] altitude) {

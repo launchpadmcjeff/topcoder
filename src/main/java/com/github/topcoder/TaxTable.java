@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=4511">TaxTable</a>
+ */
 public class TaxTable {
 	public int income(int taxAmount) {
 		if (taxAmount < 100000 * 0.25 - 6525) {

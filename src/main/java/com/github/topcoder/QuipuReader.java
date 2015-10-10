@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1694">QuipuReader</a>
+ */
 public class QuipuReader {
 	public int[] readKnots(String[] knots) {
 		return readKnotsTopSubmission(knots);

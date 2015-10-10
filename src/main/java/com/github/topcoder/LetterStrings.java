@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=961">LetterStrings</a>
+ */
 public class LetterStrings {
 
 	public int sum(String[] s) {

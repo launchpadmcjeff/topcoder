@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=13240">FixedDiceGameDiv2</a>
+ */
 public class FixedDiceGameDiv2 {
 
 	public double getExpectation(int a, int b) {

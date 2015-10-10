@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1846">PaperFold</a>
+ */
 public class PaperFold {
 
 	public int numFolds(int[] paper, int[] box) {

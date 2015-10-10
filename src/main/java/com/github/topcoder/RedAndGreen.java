@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=11567">RedAndGreen</a>
+ */
 public class RedAndGreen {
 	public int minPaints(String row) {
 		int ret = -1;

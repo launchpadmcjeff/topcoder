@@ -9,7 +9,9 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.concurrent.atomic.AtomicInteger;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=2913">UserName</a>
+ */
 public class UserName {
 
 	public String newMember(String[] existingNames, String newName) {

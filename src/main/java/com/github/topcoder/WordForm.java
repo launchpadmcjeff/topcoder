@@ -1,7 +1,9 @@
 package com.github.topcoder;
 
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=2002">WordForm</a>
+ */
 public class WordForm {
 
 	public String getSequence(String word) {

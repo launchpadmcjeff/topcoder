@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=3452">InsideOut</a>
+ */
 public class InsideOut {
 
 	public String unscramble(String line) {

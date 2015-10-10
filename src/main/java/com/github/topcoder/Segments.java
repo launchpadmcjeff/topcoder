@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=6251">Segments</a>
+ */
 public class Segments {
 
 	public String intersection(int[] s1, int[] s2) {

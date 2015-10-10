@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=8204">WhiteCells</a>
+ */
 public class WhiteCells {
 	public int countOccupied(String[] board) {
 		int ret = 0;

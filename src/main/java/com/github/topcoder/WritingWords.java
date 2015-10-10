@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=13072">WritingWords</a>
+ */
 public class WritingWords {
 
 	public int write(String word) {

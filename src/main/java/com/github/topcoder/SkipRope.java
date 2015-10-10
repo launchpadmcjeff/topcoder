@@ -2,7 +2,9 @@ package com.github.topcoder;
 
 import java.util.Arrays;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1968">SkipRope</a>
+ */
 public class SkipRope {
 
 	public int[] partners(int[] candidates, int height) {

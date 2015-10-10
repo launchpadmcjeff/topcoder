@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=13125">WakingUpEasy</a>
+ */
 public class WakingUpEasy {
 
 	public int countAlarms(int[] volume, int S) {

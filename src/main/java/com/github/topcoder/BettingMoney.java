@@ -1,6 +1,9 @@
 package com.github.topcoder;
 
 
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=2297">BettingMoney</a>
+ */
 public class BettingMoney {
 
 	public int moneyMade(int[] amounts, int[] centsPerDollar, int finalResult) {

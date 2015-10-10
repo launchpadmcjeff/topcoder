@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=6003">DiagonalDisproportion</a>
+ */
 public class DiagonalDisproportion {
 
 	public int getDisproportion(String[] matrix) {

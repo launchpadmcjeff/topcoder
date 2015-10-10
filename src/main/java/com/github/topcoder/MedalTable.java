@@ -8,6 +8,9 @@ import java.util.List;
 import java.util.Set;
 
 
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=2922">MedalTable</a>
+ */
 public class MedalTable {
 	String[] generate(String[] results) {
 		// Take the passed in String[] and create new ScoreCount objects

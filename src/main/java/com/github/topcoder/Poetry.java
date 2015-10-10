@@ -5,7 +5,9 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1835">Poetry</a>
+ */
 public class Poetry {
 
 	public String rhymeScheme(String[] poem) {

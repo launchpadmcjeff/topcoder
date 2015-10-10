@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=5950">DancingSentence</a>
+ */
 public class DancingSentence {
 	
 	public String makeDancing(String sentence) {

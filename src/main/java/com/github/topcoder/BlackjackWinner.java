@@ -1,6 +1,9 @@
 package com.github.topcoder;
 
 
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=4500">BlackjackWinner</a>
+ */
 public class BlackjackWinner {
 
 	public int winnings(int bet, int dealer, int dealerBlackjack, int player,

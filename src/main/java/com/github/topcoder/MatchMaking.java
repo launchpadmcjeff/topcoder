@@ -2,12 +2,14 @@ package com.github.topcoder;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
 
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=2911">MatchMaking</a>
+ */
 public class MatchMaking {
 
 	private class Dater implements Comparable<Dater> {

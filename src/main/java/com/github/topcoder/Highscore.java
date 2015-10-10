@@ -1,7 +1,9 @@
 package com.github.topcoder;
 
-import java.util.Arrays;
 
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=3539">Highscore</a>
+ */
 public class Highscore {
 
 	public int getRank(int[] scores, int newscore, int places) {

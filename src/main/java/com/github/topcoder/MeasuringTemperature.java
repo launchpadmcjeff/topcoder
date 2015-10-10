@@ -1,9 +1,9 @@
 package com.github.topcoder;
 
-import java.util.ArrayList;
-import java.util.List;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=6553">MeasuringTemperature</a>
+ */
 public class MeasuringTemperature {
 
 	public double averageTemperature(int[] measuredValues) {

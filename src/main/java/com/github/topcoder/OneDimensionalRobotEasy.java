@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=13000">OneDimensionalRobotEasy</a>
+ */
 public class OneDimensionalRobotEasy {
 
 	public int finalPosition(String commands, int A, int B) {

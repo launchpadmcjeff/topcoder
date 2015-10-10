@@ -1,6 +1,9 @@
 package com.github.topcoder;
 
 
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=4788">CheckFunction</a>
+ */
 public class CheckFunction {
 
 	public int newFunction(String code) {

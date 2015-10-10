@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=11279">SlimeXSlimeRancher2</a>
+ */
 public class SlimeXSlimeRancher2 {
 
 	public int train(int[] attributes) {

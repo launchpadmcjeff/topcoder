@@ -89,6 +89,100 @@ public class BigSorter implements Sorter {
 	}
 
 	public <T> void heapSort(T[] in, Comparator<T> c) {
+		Heap<T> heap = new Heap<>(in, c);
+		heap.sort();
+	}
+	
+	
+	
+	private class Heap<T> {
+		T[] heap;
+		int heapEnd;
+		Comparator<T> c;
 		
+		public Heap(T[] in, Comparator<T> comp) {
+			heap = in;
+			c = comp;
+			heapEnd = in.length - 1;
+			buildHeap();
+			
+		}
+		
+		public void sort() {
+			for (int i = heap.length - 1; i >= 0; i--) {
+				T t = take();
+				heap[i] = t;
+			}
+		}
+		
+		private void buildHeap() {
+			
+			for (int i = heap.length / 2 - 1; i >= 0; i--) {
+				heapifyDown(i);
+			}
+		}
+		
+		private T take() {
+			T ret = heap[0];
+			heap[0] = heap[heapEnd--];
+			heapifyDown(0);
+			return ret;
+		}
+
+		private void swap(int a, int b) {
+			T temp = heap[a];
+			heap[a] = heap[b];
+			heap[b] = temp;
+		}
+		
+		private void heapifyDown(int node) {
+			int l = leftChild(node);
+			int r = rightChild(node);
+			if (l != -1 && c.compare(heap[node], heap[l]) < 0) {
+				if (r != -1 && c.compare(heap[l], heap[r]) < 0) {
+					swap(node, r);
+					heapifyDown(r);
+				} else {
+					swap(node, l);
+					heapifyDown(l);
+				}
+			} else if (r != -1 && c.compare(heap[node], heap[r]) < 0) {
+				swap(node, r);
+				heapifyDown(r);
+			}
+		}
+		
+		private int leftChild(int node) {
+			int i = 2 * node + 1;
+			if (i > heapEnd){
+				i = -1;
+			}
+			return i;
+		}
+		
+		private int rightChild(int node) {
+			int i = 2 * node + 2;
+			if (i > heapEnd){
+				i = -1;
+			}
+			return i;
+		}
+		
+		private int parent(int node) {
+			if (node == 0) {
+				return -1;
+			}
+			return node / 2 - 1;
+		}
 	}
 }
+
+
+
+
+
+
+
+
+
+

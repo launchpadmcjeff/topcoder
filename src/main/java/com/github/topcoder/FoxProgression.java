@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=11283">FoxProgression</a>
+ */
 public class FoxProgression {
 
 	public int theCount(int[] seq) {

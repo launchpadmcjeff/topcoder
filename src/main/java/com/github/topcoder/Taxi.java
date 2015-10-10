@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=6104">Taxi</a>
+ */
 public class Taxi {
 
 	public double maxDis(int maxX, int maxY, int taxiDis) {

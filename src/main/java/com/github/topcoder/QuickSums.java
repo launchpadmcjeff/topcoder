@@ -5,7 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=2829">QuickSums</a>
+ */
 public class QuickSums {
 
 	Map<String, Integer> nums = new HashMap<>();

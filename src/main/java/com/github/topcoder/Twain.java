@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1876">Twain</a>
+ */
 public class Twain {
 
 	public String getNewSpelling(int year, String phrase) {

@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=13230">SumOfPower</a>
+ */
 public class SumOfPower {
 
 	public int findSum(int[] array) {

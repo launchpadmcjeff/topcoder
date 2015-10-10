@@ -3,6 +3,9 @@ package com.github.topcoder;
 import java.util.Arrays;
 
 
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1677">Bonuses</a>
+ */
 public class Bonuses {
 
 	public int[] getDivision(int[] points) {

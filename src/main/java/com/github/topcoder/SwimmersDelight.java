@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=4821">SwimmersDelight</a>
+ */
 public class SwimmersDelight {
 
 	public int longestJump(int[] x, int[] y) {

@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=12438">FoxAndGame</a>
+ */
 public class FoxAndGame {
 	public int countStars(String[] result) {
 		int ret = 0;

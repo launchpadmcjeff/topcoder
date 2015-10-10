@@ -1,6 +1,9 @@
 package com.github.topcoder;
 
 
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1667">CCipher</a>
+ */
 public class CCipher {
 
 	public String decode(String cipherText, int shift) {

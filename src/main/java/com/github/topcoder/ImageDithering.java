@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1728">ImageDithering</a>
+ */
 public class ImageDithering {
 
 	public int count(String dithered, String[] screen) {

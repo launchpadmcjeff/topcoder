@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=13043">LeftAndRightHandedDiv2</a>
+ */
 public class LeftAndRightHandedDiv2 {
 
 	public int count(String S) {

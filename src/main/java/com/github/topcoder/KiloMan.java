@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=2268">KiloMan</a>
+ */
 public class KiloMan {
 
 	public int hitsTaken(int[] pattern, String jumps) {

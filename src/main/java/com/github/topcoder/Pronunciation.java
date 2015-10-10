@@ -3,7 +3,9 @@ package com.github.topcoder;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=3527">Pronunciation</a>
+ */
 public class Pronunciation {
 
 	public String canPronounce(String[] words) {

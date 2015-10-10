@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=10233">TheBeauty</a>
+ */
 public class TheBeauty {
 
 	public int find(int n) {

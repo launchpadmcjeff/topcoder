@@ -1,5 +1,9 @@
 package com.github.topcoder;
 
+
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1704">BinaryCode</a>
+ */
 public class BinaryCode {
 
 	public String[] decode(String message) {

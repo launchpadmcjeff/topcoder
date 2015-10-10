@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=4688">GridGenerator</a>
+ */
 public class GridGenerator {
 
 	public int generate(int[] row, int[] col) {

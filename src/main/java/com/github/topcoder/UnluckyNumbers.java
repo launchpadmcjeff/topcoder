@@ -2,7 +2,9 @@ package com.github.topcoder;
 
 import java.util.Arrays;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=10396">UnluckyNumbers</a>
+ */
 public class UnluckyNumbers {
 
 	public int getCount(int[] luckySet, int n) {

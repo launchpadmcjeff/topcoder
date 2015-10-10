@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=8240">CondorcetVoting</a>
+ */
 public class CondorcetVoting {
 
 	public int winner(String[] votes) {

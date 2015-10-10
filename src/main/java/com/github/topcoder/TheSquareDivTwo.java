@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=10299">TheSquareDivTwo</a>
+ */
 public class TheSquareDivTwo {
 
 	public String[] solve(String[] board) {

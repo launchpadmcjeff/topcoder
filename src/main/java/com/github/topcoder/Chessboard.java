@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=7576">Chessboard</a>
+ */
 public class Chessboard {
 
 	public String changeNotation(String cell) {

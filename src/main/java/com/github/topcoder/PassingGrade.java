@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1962">PassingGrade</a>
+ */
 public class PassingGrade {
 
 	public int pointsNeeded(int[] pointsEarned, int[] pointsPossible, int finalExam) {

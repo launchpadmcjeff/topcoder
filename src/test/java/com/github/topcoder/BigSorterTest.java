@@ -53,6 +53,12 @@ public class BigSorterTest {
 
 	@Test
 	public void testHeapSort() {
+		sut.heapSort(g1, new C());
+		assertArrayEquals(g1$, g1);
+	}
+	
+	@Test
+	public void testHeapSort2() {
 		sut.heapSort(g2, new C());
 		assertArrayEquals(g2$, g2);
 	}

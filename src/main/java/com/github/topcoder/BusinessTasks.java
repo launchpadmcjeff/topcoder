@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=1585">BusinessTasks</a>
+ */
 public class BusinessTasks {
 	public String getTask(String[] list, int n) {
 		List<String> pi = new LinkedList<>();

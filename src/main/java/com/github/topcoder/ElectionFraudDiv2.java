@@ -1,6 +1,8 @@
 package com.github.topcoder;
 
-
+/**
+ *  <a href="http://community.topcoder.com/stat?c=problem_statement&pm=11946">ElectionFraudDiv2</a>
+ */
 public class ElectionFraudDiv2 {
 
 	public String IsFraudulent(int[] percentages) {
