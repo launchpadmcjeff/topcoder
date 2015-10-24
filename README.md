@@ -8,3 +8,4 @@ These are my topcoder solutions to selected puzzles.  They should all build and 
 
 
 
+Some tests have unimplemented classes, so they will obviously fail.
