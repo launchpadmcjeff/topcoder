@@ -125,8 +125,8 @@ public class RodCuttingDPTest {
 	@Test
 	public void testCutRodB() {
 		int[] prices = {1, 5, 8, 9, 10, 17, 17, 20, 24, 30, 33, 38, 39, 45, 52, 55, 55, 60};
-		int length = 130;
-		int expected = 30;
+		int length = 16;
+		int expected = 55;
 		int actual = sut.cutRod(prices, length );
 		assertEquals(expected, actual);
 	}

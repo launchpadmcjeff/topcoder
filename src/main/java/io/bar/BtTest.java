@@ -31,7 +31,7 @@ public class BtTest {
 		assertEquals(expected, actual);
 	}
 
-	@Test
+	@Test(expected = NullPointerException.class)
 	public void testBar() {
 		boolean bar = testfunc() <= new Date().getTime();
 	}

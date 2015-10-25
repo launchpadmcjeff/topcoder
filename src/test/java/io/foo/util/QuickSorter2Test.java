@@ -63,8 +63,8 @@ public class QuickSorter2Test {
 	}
 	@Test
 	public void testSort4() {
-		g1 = null;
-		g1$ = null;
+		g1 = new Integer[]{31, 22, 13};
+		g1$ = new Integer[]{13, 22, 31};
 		sut.sort(g1);
 		assertArrayEquals(g1$, g1);
 	}
