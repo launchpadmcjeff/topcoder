@@ -45,7 +45,14 @@ public class The3NPlus1ProblemTest {
 	@Test
 	public void testInput05() {
 		String actual = sut.input("1 1000000");
-		String expected = "1 1000000 1";
+		String expected = "1 1000000 525";
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testInput06() {
+		String actual = sut.input("1 22");
+		String expected = "1 22 21";
 		assertEquals(expected, actual);
 	}
 

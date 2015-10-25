@@ -1,8 +1,11 @@
 package com.programmingchallenges;
 
-import java.util.HashMap;
-import java.util.Map;
 
+/**
+ * 
+ * @see <a href="http://www.spoj.com/problems/PROBTNPO/">The3NPlus1Problem.java</a>
+ *
+ */
 public class The3NPlus1Problem {
 
 	public String input(String s) {
@@ -15,7 +18,7 @@ public class The3NPlus1Problem {
 			int n = k;
 			int cnt = 1;
 
-			while (n > 1) {
+			while (n != 1) {
 				cnt++;
 				if (n % 2 == 0) {
 					n = n >>> 1;
