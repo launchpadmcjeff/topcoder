@@ -274,4 +274,38 @@ public class G2 {
 		}
 		return ret;
 	}
+	
+	public void primsMst(Integer start) {
+		boolean[] inTree = new boolean[adj.size() + 1];
+		Integer[] pi = new Integer[adj.size() + 1];
+		int[] weight = new int[adj.size() + 1];
+		
+		for (int i = 1; i < adj.size() + 1; i++) {
+			inTree[i] = false;
+			pi[i] = null;
+			weight[i] = Integer.MAX_VALUE;
+		}
+		
+		weight[start] = 0;
+		
+		Integer node = start;
+		while (!inTree[node]) {
+			inTree[node] = true;
+			
+			for (Edge e : adj.get(node)) {
+				if (e.weight < weight[e.y]) {
+					weight[e.y] = e.weight;
+					pi[e.y] = node;
+				}
+			}
+			int min = Integer.MAX_VALUE;
+			for (int i = 0; i < inTree.length; i++) {
+				if (!inTree[i] && weight[i] < min) {
+					node = i;
+					min = weight[i];
+				}
+			}
+		}
+		System.out.println(pi);
+	}
 }

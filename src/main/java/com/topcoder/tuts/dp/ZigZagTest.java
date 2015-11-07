@@ -67,29 +67,38 @@ public class ZigZagTest {
 		int actual = sut.longestZigZag(sequence);
 		assertEquals(expected, actual);
 	}
-
-	public int longestZigZag(int[] sequence) {
-		if (sequence.length == 1)
-			return 1;
-		int[] v = new int[sequence.length - 1];
-		for (int i = 1; i < sequence.length; i++) {
-			v[i - 1] = sequence[i] - sequence[i - 1];
-		}
-		// dir is first nonzero
-		int ii = 0;
-		while (ii < v.length && v[ii] == 0)
-			ii++;
-		if (ii == v.length)
-			return 1;
-		int dir = v[ii];
-		int len = 2;
-		for (int i = ii + 1; i < v.length; i++) {
-			if (v[i] * dir < 0) {
-				dir *= -1;
-				len++;
-			}
-		}
-
-		return len;
+	
+	@Test
+	public void testLongestZigZag6() {
+		int expected = 7;
+		int[] sequence = new int[] {1, 0, 1, 2, 1, 0, 1, 0, 1};
+		int actual = sut.longestZigZag(sequence);
+		assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void testLongestZigZagBreaksTopSubmissionNot() {
+		int expected = 7;
+		int[] sequence = new int[] {1, 0, 1, 8, 7, 8, 7, 1, 0, 1};
+		int actual = sut.longestZigZagTopSubmission(sequence);
+		assertEquals(expected, actual);
+	}
+
+	@Test
+	public void testIsZigZag0() {
+		int[] sequence = new int[] {1, 7, 4, 9, 2, 5};
+		boolean expected = true;
+		boolean actual = sut.isZigZag(sequence);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testIsZigZag1() {
+		int[] sequence = new int[] {1, 0, 1, 0, 1, 0, 1, 0, 1};
+		boolean expected = true;
+		boolean actual = sut.isZigZag(sequence);
+		assertEquals(expected, actual);
+	}
+	
+	
 }

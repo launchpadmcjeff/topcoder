@@ -123,6 +123,11 @@ public class G2Test {
 	}
 	
 	@Test
+	public void testPrims() {
+		sut.primsMst(1);
+	}
+	
+	@Test
 	public void testFoo() {
 		Date a = null;
 		Date b = null;
